@@ -28,6 +28,7 @@ public class ExpanseController {
 	@Autowired
 	private ExpanseService expanseService;
 	
+
 	@GetMapping("/expanses")
 	 public List<Expanse> getAllExpanse(Pageable page) {
 //		int number=1;
